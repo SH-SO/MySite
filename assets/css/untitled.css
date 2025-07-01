@@ -1,0 +1,39 @@
+@media (min-width: 900px) {
+  .mt-8.btn-xl {
+  }
+}
+
+@media (min-width: 900px) {
+  .mt-9.btn-xl {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 13px;
+    padding-left: 13px;
+  }
+}
+
+input:focus {
+  border: solid 3px #8b00ae;
+}
+
+input, textarea {
+  caret-color: rgb(76, 175, 80);
+}
+
+input:focus, textarea:focus {
+  caret-color: rgb(255, 87, 34);
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    /*background-color: #121212;*/
+    /*color: #f0f0f0;*/
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .element-style {
+    color: white;
+  }
+}
+
